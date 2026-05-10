@@ -24,7 +24,7 @@ fn main() {
         },
         MyOption::None => {
             println!("Using match, option1 is MyOption::None");
-            println!("Another println command inside None");
+            println!("Another println command inside None"); 
         }
         _ => ()
     }
